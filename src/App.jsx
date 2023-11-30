@@ -1,13 +1,6 @@
-import { useState } from 'react'
-import './App.css'
-
-function App() {
-  const [count, setCount] = useState(0)
-
+function App({mensaje, usuario}) {
   return (
-    <>
-  <h1>Hello World</h1>
-    </>
+    <h1>{mensaje} {usuario}</h1>
   )
 }
 
